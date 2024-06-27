@@ -34,14 +34,30 @@
 .mb-2 {
     margin-bottom: 8px;
 }
-.txt-green{
+
+.txt-green {
     color: #03A07B;
     text-align: center;
     /* text-shadow: 2px 2px 0px rgba(255, 255, 255); */
 }
-.footer{
+
+.footer {
     padding: 2% 0;
 }
+
+.footerPoint {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+}
+
+.brSP {
+    display: none;
+}
+
 @media (max-width:768px) {
     .txt-xxl {
         font-size: 2.5rem;
@@ -53,5 +69,22 @@
 
     .txt-big {
         font-size: 1.5rem;
+    }
+
+    .footer {
+        padding: 5% 0;
+    }
+
+    .footerPoint {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .footerTitle {
+        font-size: 1.1rem;
+    }
+
+    .brSP {
+        display: block;
     }
 }
