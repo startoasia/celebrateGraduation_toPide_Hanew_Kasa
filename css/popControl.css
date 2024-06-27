@@ -1,0 +1,106 @@
+.popBG {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0%;
+    top: 0%;
+    z-index: 1000;
+    background-color: rgb(0, 0, 0, 0.7);
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popControl--active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popContainer {
+    max-width: 1000px;
+    width: 100%;
+    /* 這裡回推高度要跟【js-xmark】的字體大小一致 且要【負數】 */
+    /* margin: -3rem auto 0 auto; */
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.xmarkControl {
+    position: sticky;
+    top: 52%;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.js-xmark,.gobackbtn {
+    position: absolute;
+    right: 2%;
+    font-size: 3rem;
+    padding: 0 0.5%;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    transition: all .3s;
+}
+
+.js-xmark:hover {
+    background-color: #fff;
+    color: #000;
+    rotate: 180deg;
+}
+
+/* pop05 */
+.pop05 .popContainer {
+    max-width: 1000px;
+    width: 100%;
+    /* 這裡回推高度要跟【js-xmark】的字體大小一致 且要【負數】 */
+    margin: 0 auto;
+    top: 0;
+    transform: translateY(0);
+}
+
+.pop05 .xmarkControl {
+    width: 95%;
+    top: 1%;
+    margin-bottom: 2%;
+    z-index: 10;
+}
+
+.pop05 .js-xmark,
+.pop05 .gobackbtn {
+    position: relative;
+    right: 0%;
+    margin-left: 92%;
+}
+
+
+.gobackbtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn--no {
+    display: none;
+}
+@media (max-width:768px) {
+    .popContainer {
+        width: 90%;
+        /* 這裡回推高度要跟【js-xmark】的字體大小一致 且要【負數】 */
+        /* margin: -2.5rem auto 0 auto; */
+
+    }
+
+    .js-xmark {
+        font-size: 2.2rem;
+        padding: 0 1%;
+    }
+    .pop05 .js-xmark,
+    .pop05 .gobackbtn {
+        font-size: 2.5rem;
+        /* background-color: transparent; */
+    }
+
+}

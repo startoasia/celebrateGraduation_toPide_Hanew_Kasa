@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans TC", sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif; */
+    background-color: #FCE8EB;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.5);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* 定位 */
+
+.logo {
+    width: 30%;
+    right: 14.8%;
+    top: 0.7%;
+}
+
+.FV {
+    width: 77.9%;
+    left: 3.8%;
+    top: 19.7%;
+    animation: scale 2s infinite ease-in-out;
+}
+
+.hanew1-1 {
+    width: 23.5%;
+    right: 22%;
+    bottom: 5.5%;
+}
+
+.hanew1-2 {
+    width: 27.8%;
+    right: 5%;
+    bottom: 3.5%;
+    cursor: pointer;
+    -webkit-mask: url("../images/hanew1-2.png") no-repeat center center;
+    mask: url("../images/hanew1-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.kasa1-1 {
+    width: 24.1%;
+    left: 26%;
+    bottom: 26%;
+}
+
+.kasa1-2 {
+    width: 27.8%;
+    left: 46%;
+    bottom: 29.6%;
+    cursor: pointer;
+    -webkit-mask: url("../images/kasa1-2.png") no-repeat center center;
+    mask: url("../images/kasa1-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.pide1-1 {
+    width: 26.7%;
+    left: 7%;
+    bottom: 13.5%;
+}
+
+.pide1-2 {
+    width: 27.8%;
+    left: 7%;
+    bottom: 9.2%;
+    cursor: pointer;
+    -webkit-mask: url("../images/pide1-2.png") no-repeat center center;
+    mask: url("../images/pide1-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.hanew2-1 {
+    width: 23.5%;
+    right: 14.2%;
+    top: 25.2%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hanew2-2 {
+    width: 26.1%;
+    right: 30.2%;
+    top: 35.3%;
+    cursor: pointer;
+    -webkit-mask: url("../images/hanew2-2.png") no-repeat center center;
+    mask: url("../images/hanew2-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.kasa2-1 {
+    width: 24%;
+    left: 22.5%;
+    bottom: 34.5%;
+}
+
+.kasa2-2 {
+    width: 26.1%;
+    left: 3.8%;
+    bottom: 37.7%;
+    cursor: pointer;
+    -webkit-mask: url("../images/kasa2-2.png") no-repeat center center;
+    mask: url("../images/kasa2-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.pide2-1 {
+    width: 26.5%;
+    right: 16.8%;
+    bottom: 38.2%;
+}
+
+.pide2-2 {
+    width: 26.1%;
+    right: 30.4%;
+    bottom: 43.3%;
+    cursor: pointer;
+    -webkit-mask: url("../images/pide2-2.png") no-repeat center center;
+    mask: url("../images/pide2-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.hanew3-1 {
+    width: 22.3%;
+    right: 28%;
+    top: 7%;
+}
+
+.hanew3-2 {
+    width: 27.9%;
+    right: 20.5%;
+    top: 27.8%;
+    cursor: pointer;
+    -webkit-mask: url("../images/hanew3-2.png") no-repeat center center;
+    mask: url("../images/hanew3-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.kasa3-1 {
+    width: 27.1%;
+    left: 11.8%;
+    bottom: 46.2%;
+}
+
+.kasa3-2 {
+    width: 27.8%;
+    left: 3.6%;
+    top: 32.7%;
+    cursor: pointer;
+    -webkit-mask: url("../images/kasa3-2.png") no-repeat center center;
+    mask: url("../images/kasa3-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.pide3-1 {
+    width: 29.3%;
+    right: 20.5%;
+    bottom: 30%;
+}
+
+.pide3-2 {
+    width: 27.8%;
+    right: 28%;
+    bottom: 48%;
+    cursor: pointer;
+    -webkit-mask: url("../images/pide3-2.png") no-repeat center center;
+    mask: url("../images/pide3-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.hanew4-1 {
+    width: 38%;
+    right: 7.6%;
+    bottom: 35.5%;
+}
+
+.hanew4-2 {
+    width: 41.4%;
+    left: 25%;
+    bottom: 60.7%;
+    cursor: pointer;
+    -webkit-mask: url("../images/hanew4-2.png") no-repeat center center;
+    mask: url("../images/hanew4-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.kasa4-1 {
+    width: 57%;
+    left: -11%;
+    bottom: 27%;
+}
+
+.kasa4-2 {
+    width: 48.7%;
+    left: 12%;
+    bottom: 40.2%;
+    cursor: pointer;
+    -webkit-mask: url("../images/kasa4-2.png") no-repeat center center;
+    mask: url("../images/kasa4-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.pide4-1 {
+    width: 75.4%;
+    left: 19.5%;
+    bottom: 2.4%;
+    z-index: 1;
+}
+
+.pide4-2 {
+    width: 55%;
+    left: 7%;
+    bottom: 11.8%;
+    cursor: pointer;
+    -webkit-mask: url("../images/pide4-2.png") no-repeat center center;
+    mask: url("../images/pide4-2.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    z-index: 2;
+}
+
+.videoControl {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

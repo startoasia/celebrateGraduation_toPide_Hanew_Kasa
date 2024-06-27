@@ -1,0 +1,111 @@
+.peopleList {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px 0px;
+    transition: all .3s;
+}
+
+.peopleList--close {
+    filter: blur(5px);
+}
+
+.peopleItem {
+    width: 30%;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: inset -2px -2px 5px rgb(0,0,0,0.6);
+    padding: 3% 0 3% 0;
+}
+.peopleItem p {
+    font-size: 1.75rem;
+    width: 80%;
+    text-align: center;
+    padding-top: 8%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.peopleItem img{
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.6);
+}
+.titleControl {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+}
+
+.titleList {
+    position: relative;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0;
+    visibility: hidden;
+  */
+}
+
+.titleList--show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.titleItem {
+    background-color: #fff;
+    padding: 3%;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titleItem--no {
+    display: none;
+}
+
+@media (max-width:768px) {
+    .peopleList {
+        gap: 10px 0px;
+    }
+    .peopleList--close {
+        filter: blur(2.5px);
+    }
+    .titleList {
+        width: 90%;
+    }
+    .titleItem {
+        padding: 5% 3%;
+        font-size: 1.15rem;
+    }
+    .peopleItem {
+        width: 30%;
+        border-radius: 8px;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: inset -1px -1px 2.5px rgb(0,0,0,0.6);
+        padding: 3% 0 3% 0;
+    }
+    .peopleItem p {
+        font-size: 1.15rem;
+        width: 80%;
+        text-align: center;
+        padding-top: 8%;
+        margin: 0 auto;
+    }
+    .peopleItem img{
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 0.5px 0.5px 2.5px rgb(0,0,0,0.6);
+    }
+}
