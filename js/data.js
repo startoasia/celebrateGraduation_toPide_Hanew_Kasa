@@ -71,7 +71,7 @@ let data = [
                     <br>STAを卒業した後、これから山田さんは自分の道を開きますね～良いことになるように祈ります！祝福Pide永遠保持28歲的容顏跟心態，青春永駐!!`,
                 },
                 {
-                    name: "Ruby",
+                    name: "Ruping",
                     imgUrl: "./images/comment/ruby.png",
                     title: `「相信明天更好的自己」と山田さんより名言。覚えてますか？以前、山田さんよく言ってました中文だよ。この名言を覚えて次の道へ進もう！`,
                 },
@@ -468,7 +468,7 @@ let data = [
                     <br>從亞星通畢業後，也祝福妳運用這樣溫暖的特質在別的道路上繼續發光發熱喔~`,
                 },
                 {
-                    name: "Ruby",
+                    name: "Ruping",
                     imgUrl: "./images/comment/ruby.png",
                     title: `恭喜妳要展開新的人生篇章。未來的日子一定順～`,
                 },
